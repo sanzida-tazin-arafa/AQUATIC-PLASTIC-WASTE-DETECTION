@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['bottle_cap', 'glove', 'mask', 'net', 'plastic_bag', 'plastic_bottle', 'plastic_cup', 'plastic_straw']
+
+roboflow:
+  workspace: sanzida-tazin-arafa-s-workspace
+  project: uppdms
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sanzida-tazin-arafa-s-workspace/uppdms/dataset/2
